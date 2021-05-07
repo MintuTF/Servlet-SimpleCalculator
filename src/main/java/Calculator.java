@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/calculator")
+@WebServlet({"/calculator","/"})
 public class Calculator extends HttpServlet {
 
     @Override
