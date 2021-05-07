@@ -21,10 +21,8 @@ public class CalculatorServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String addfirstNumber = req.getParameter("addFirstNum");
         String addSecondNumber = req.getParameter("addSecondNum");
-
         String multSecondNum = req.getParameter("multSecondNum");
         String multFirstNum = req.getParameter("multFirstNum");
-
         resp.setContentType("text/html;charset=UTF-8");
 
         int addRes;
